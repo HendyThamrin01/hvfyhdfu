@@ -1,0 +1,83 @@
+inputPin {
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 100%;
+/*    background-color: #ff0000a5;*/
+}
+.formPin {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+/*    background-color: lightgreen;*/
+}
+
+/*********************/
+.six_pin {
+    display: flex;
+/*    background-color: blue;*/
+    justify-content: center;
+
+}
+.inpPin {
+    caret-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/*********************/
+    .resend {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .resend a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .info-box {
+      display: flex;
+      gap: 10px;
+      background: #f5f5f7;
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    .info-box span {
+      color: #007bff;
+      font-weight: bold;
+    }
+.btn {
+/*    background-color: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.see {
+    margin-bottom: 52px;
+    margin-top: 33px;
+    background: none;
+    font-size: 13px;
+    color: #000;
+    width: 110px;
+    height: 24px;
+    border: 1.2px solid #ffffff;
+    border-radius: 20px;
+}
+.lupa {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
